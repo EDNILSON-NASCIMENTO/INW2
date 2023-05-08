@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "json-server": "json-server data/db.json"
+  }
+  
+  
+}
