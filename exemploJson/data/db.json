@@ -1,0 +1,24 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "descricao": "Rosa Vermelha",
+        "estoque": 10,
+        "valor": 10,
+        "imagem" : "./img/rosaVermelha.jpg"
+      },
+      {
+        "id": 2,
+        "descricao": "Girassol",
+        "estoque": 10,
+        "valor": 15
+      },
+      {
+        "id": 3,
+        "descricao": "Lirios",
+        "estoque": 10,
+        "valor": 5.25
+      }
+    ]
+  }
+  
