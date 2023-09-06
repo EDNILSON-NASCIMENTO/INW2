@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <title>Firebase Login</title>
 </head>
 <body>
@@ -12,9 +14,17 @@
         <input type="email" id="email" placeholder="E-mail">
         <input type="password" id="password" placeholder="Senha">
         <button id="loginButton">Entrar</button>
+        <br><br>
+        <hr>
+        <button class="btn btn-primary" onclick="createLogin()">Criar Conta</button>
+        <button class="btn btn-primary" onclick="loginEmail()">Login Email</button>
+        <button class="btn btn-danger" onclick="deletaUsuario()">Deletar usuário</button>
+        <button class="btn btn-warning" onclick="logout()">Sair firebase</button>
+
     </div>
     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
     <script src="app.js"></script>
+    <script src="email.js"></script>
 </body>
 </html>
